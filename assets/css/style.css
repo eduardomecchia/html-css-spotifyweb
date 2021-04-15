@@ -58,6 +58,9 @@ a:hover {
     width: 250px;
     z-index: 2;
 }
+#sidebar > a:first-child {
+    height: 90px;
+}
 #sidebar .sidebar_options img {
     width: 30px;
 }
@@ -88,7 +91,7 @@ a:hover {
 /* Upgrade button rules */
 
 #upgrade_bar {
-    height: 67px;
+    height: 90px;
     z-index: 1;
 }
 
