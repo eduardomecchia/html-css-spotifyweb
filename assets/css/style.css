@@ -12,6 +12,9 @@
 .bg-grey {
     background-color: #a3a3a3;
 }
+.bg-dark-grey {
+    background-color: #282828;
+}
 .text-grey {
     color: #717171;
 }
@@ -49,7 +52,7 @@ ul {
     text-decoration: none;
 }
 #sidebar .square {
-    font-size: 30px;
+    font-size: 25px;
     width: 40px;
     height: 40px;
 }
@@ -64,9 +67,7 @@ ul {
 /* Upgrade button rules */
 
 #upgrade_bar {
-    height: 15vh;
-    position: fixed;
+    height: 10vh;
     z-index: -1;
-    top: 0;
-    right: 0;
+    left: 1%;
 }

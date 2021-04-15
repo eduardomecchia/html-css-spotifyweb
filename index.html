@@ -41,8 +41,10 @@
 
                         <li class="my-2">
                             <a href="#" class="create_playlist d-flex align-items-center">
-                                <div class="d-flex justify-content-center align-items-start square text-black bg-grey">+</div>
-                                <div class="w-75 ml-2">Crea Playlist</div>
+                                <div class="d-flex justify-content-center align-items-center square text-black bg-grey">
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                                <div class="ml-2">Crea Playlist</div>
                             </a>
                         </li>
 
@@ -75,25 +77,29 @@
                         </li>
                     </ul>
 
-                    <a href="#" class="install d-flex align-items-center mx-3 pb-2 border-bottom border-grey">
-                        <i class="far fa-arrow-alt-circle-down"></i>
-                        <div class="ml-3">Installa app</div>
-                    </a>
-
-                    <div class="user d-flex mt-3 mb-2 pl-3">
-                        <div class="d-flex justify-content-center align-items-center bg-grey rounded-circle">
-                            <img src="./assets/img/profile.svg" alt="Icon depicting a silhouette">
+                    <div class="d-flex flex-column">
+                        <a href="#" class="install d-flex align-items-center mx-3 pb-2 border-bottom border-grey">
+                            <i class="far fa-arrow-alt-circle-down"></i>
+                            <div class="ml-3">Installa app</div>
+                        </a>
+    
+                        <div class="user d-flex mt-3 mb-2 pl-3">
+                            <div class="d-flex justify-content-center align-items-center bg-grey rounded-circle">
+                                <img src="./assets/img/profile.svg" alt="Icon depicting a silhouette">
+                            </div>
+                            <div class="text-white ml-3">John Doe</div>
                         </div>
-                        <div class="text-white ml-3">John Doe</div>
                     </div>
                 </nav>
 
                 <main class="col-10 px-0">
-                    <div id="upgrade_bar" class="d-flex justify-content-end align-items-center w-100 bg-fading-black">
+                    <div id="upgrade_bar" class="d-flex justify-content-end align-items-center fixed-top bg-fading-black">
                         <a href="#" class="btn rounded-pill border border-white mr-3 py-2 px-4 font-weight-bold text-white text-uppercase">Effettua l'upgrade</a>
                     </div>
                 
                 </main>
+
+                <nav id=""></nav>
             </div>
         </div>
     </body>
