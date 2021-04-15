@@ -9,11 +9,20 @@
 .bg-dark-blue {
     background-color: #151922;
 }
+.bg-grey {
+    background-color: #a3a3a3;
+}
 .text-grey {
     color: #717171;
 }
+.text-black {
+    color: #000;
+}
 .border-lime {
     border-color: #adf62f!important;
+}
+ul {
+    list-style-type: none;
 }
 
 
@@ -36,13 +45,18 @@
     color: white;
     text-decoration: none;
 }
-
+#sidebar .square {
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+}
 
 /* Upgrade button rules */
 
 #upgrade_bar {
     height: 15vh;
     position: fixed;
+    z-index: -1;
     top: 0;
     right: 0;
 }
