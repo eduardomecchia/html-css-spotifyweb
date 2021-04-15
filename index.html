@@ -10,107 +10,135 @@
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body class="bg-dark-blue">
-        <!-- Left sidebar --> 
-        <nav id="sidebar" class="col-2 flex-column font-weight-bold fixed-left px-0 text-grey bg-black">
-            <a href="https://www.spotify.com/it/home/" class="d-block py-3 pl-3">
-                <img src="./assets/img/logo.svg" class="w-50" alt="Spotify logo">
-            </a>
-
-            <!-- Sidebar options -->
-            <ul class="sidebar_options px-0">
-                <li class="d-flex border-lime pl-3 align-items-center mb-3">
-                    <img src="./assets/img/home.svg" alt="Icon depicting a house">
-                    <a href="#" class="ml-2">Home</a>
-                </li>
-
-                <li class="d-flex align-items-center pl-3 mb-3">
-                    <img src="./assets/img/search.svg" alt="Icon depicting a magnifying glass">
-                    <a href="#" class="ml-2">Cerca</a>
-                </li>
-
-                <li class="d-flex align-items-center pl-3 mb-3">
-                    <img src="./assets/img/libreria.svg" class="img-fluid" alt="Icon depicting three vertical books">
-                    <a href="#" class="ml-2">La tua libreria</a>
-                </li>
-            </ul>
-            <!-- /Sidebar options -->
-
-            <!-- Playlist options -->
-            <ul class="playlist_options pl-3 pr-0">
-                <li>
-                    <div class="font-weight-bold text-uppercase text-white">Playlist</div>
-                </li>
-
-                <li class="my-2">
-                    <a href="#" class="create_playlist d-flex align-items-center">
-                        <div class="d-flex justify-content-center align-items-center square text-black bg-grey">
-                            <i class="fas fa-plus"></i>
-                        </div>
-                        <div class="ml-2">Crea Playlist</div>
-                    </a>
-                </li>
-
-                <li class="my-3">
-                    <a href="#">Nome Playlist</a>
-                </li>
-
-                <li class="my-3">
-                    <a href="#">Nome Playlist</a>
-                </li>
-
-                <li class="my-3">
-                    <a href="#">Nome Playlist</a>
-                </li>
-
-                <li class="my-3">
-                    <a href="#">Nome Playlist</a>
-                </li>
-
-                <li class="my-3">
-                    <a href="#">Nome Playlist</a>
-                </li>
-
-                <li class="my-3">
-                    <a href="#">Nome Playlist</a>
-                </li>
-
-                <li>
-                    <a href="#">Nome Playlist</a>
-                </li>
-            </ul>
-            <!-- /Playlist options -->
-
-            <!-- Profile options -->
-            <div id="profile" class="d-flex flex-column">
-                <a href="#" class="d-flex align-items-center mx-3 pb-2 border-bottom border-grey">
-                    <img src="./assets/img/download.svg" alt="Icon depicting an arrow pointing down">
-                    <div class="ml-3">Installa app</div>
+        <div class="container-fluid d-flex px-0">
+            <!-- Left sidebar --> 
+            <nav id="sidebar" class="flex-column font-weight-bold fixed-left px-0 text-grey bg-black">
+                <a href="https://www.spotify.com/it/home/" class="d-block py-3 pl-3">
+                    <img src="./assets/img/logo.svg" class="w-50" alt="Spotify logo">
                 </a>
 
-                <div class="user d-flex mt-3 mb-2 pl-3">
-                    <div class="d-flex justify-content-center align-items-center bg-grey rounded-circle">
-                        <img src="./assets/img/profile.svg" alt="Icon depicting a silhouette">
+                <!-- Sidebar options -->
+                <ul class="sidebar_options px-0">
+                    <li class="d-flex border-lime pl-3 align-items-center mb-3">
+                        <img src="./assets/img/home.svg" alt="Icon depicting a house">
+                        <a href="#" class="ml-2">Home</a>
+                    </li>
+
+                    <li class="d-flex align-items-center pl-3 mb-3">
+                        <img src="./assets/img/search.svg" alt="Icon depicting a magnifying glass">
+                        <a href="#" class="ml-2">Cerca</a>
+                    </li>
+
+                    <li class="d-flex align-items-center pl-3 mb-3">
+                        <img src="./assets/img/libreria.svg" class="img-fluid" alt="Icon depicting three vertical books">
+                        <a href="#" class="ml-2">La tua libreria</a>
+                    </li>
+                </ul>
+                <!-- /Sidebar options -->
+
+                <!-- Playlist options -->
+                <ul class="playlist_options pl-3 pr-0">
+                    <li>
+                        <div class="font-weight-bold text-uppercase text-white">Playlist</div>
+                    </li>
+
+                    <li class="my-3">
+                        <a href="#" class="create_playlist d-flex align-items-center">
+                            <div class="d-flex justify-content-center align-items-center square text-black bg-grey">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                            <div class="ml-2">Crea Playlist</div>
+                        </a>
+                    </li>
+
+                    <li class="my-3">
+                        <a href="#">Nome Playlist</a>
+                    </li>
+
+                    <li class="my-3">
+                        <a href="#">Nome Playlist</a>
+                    </li>
+
+                    <li class="my-3">
+                        <a href="#">Nome Playlist</a>
+                    </li>
+
+                    <li class="my-3">
+                        <a href="#">Nome Playlist</a>
+                    </li>
+
+                    <li class="my-3">
+                        <a href="#">Nome Playlist</a>
+                    </li>
+
+                    <li class="my-3">
+                        <a href="#">Nome Playlist</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Nome Playlist</a>
+                    </li>
+                </ul>
+                <!-- /Playlist options -->
+
+                <!-- Profile options -->
+                <div id="profile" class="d-flex flex-column">
+                    <a href="#" class="d-flex align-items-center mx-3 pb-2 border-bottom border-grey">
+                        <img src="./assets/img/download.svg" alt="Icon depicting an arrow pointing down">
+                        <div class="ml-3">Installa app</div>
+                    </a>
+
+                    <div class="user d-flex mt-3 mb-2 pl-3">
+                        <div class="d-flex justify-content-center align-items-center bg-grey rounded-circle">
+                            <img src="./assets/img/profile.svg" alt="Icon depicting a silhouette">
+                        </div>
+                        <div class="text-white ml-3">John Doe</div>
                     </div>
-                    <div class="text-white ml-3">John Doe</div>
                 </div>
-            </div>
-            <!-- /Profile options -->
-        </nav>
-        <!-- /Left sidebar --> 
+                <!-- /Profile options -->
+            </nav>
+            <!-- /Left sidebar --> 
 
-        <!-- App content -->
-        <main class="col-10 px-0">
-            <!-- Fixed upgrade bar -->
-            <div id="upgrade_bar" class="d-flex justify-content-end align-items-center fixed-top bg-fading-black">
-                <a href="#" class="btn rounded-pill border border-white mr-3 py-2 px-4 font-weight-bold text-white text-uppercase">Effettua l'upgrade</a>
-            </div>
-            <!-- /Fixed upgrade bar -->
-        
-        </main>
-        <!-- /App content -->
+            <!-- App content -->
+            <main class="d-flex flex-column w-100 px-0 text-grey">
+                <!-- Fixed upgrade bar -->
+                <div id="upgrade_bar" class="d-flex justify-content-end align-items-center fixed-top bg-fading-black">
+                    <a href="#" class="btn rounded-pill border border-white mr-3 py-2 px-4 font-weight-bold text-white text-uppercase">Effettua l'upgrade</a>
+                </div>
+                <!-- /Fixed upgrade bar -->
+            
+                <ul id="song_choice" class="d-flex justify-content-center flex-wrap py-4 font-weight-bold text-uppercase">
+                    <li>
+                        <a href="#" class="mr-4">In evidenza</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4">Podcast</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4">Classifiche</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4">Generi e mood</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4">Nuove uscite</a>
+                    </li>
+                    <li>
+                        <a href="#">Scopri</a>
+                    </li>
+                </ul>
 
-        <!-- Now-playing bar -->
-        <div id="now_playing" class="fixed-bottom bg-dark-grey"></div>
-        <!-- /Now-playing bar -->
+                <div id="recent" class="d-flex">
+                    <h1 class="text-white font-weight-bold">Recently played</h1>
+                </div>
+            </main>
+            <!-- /App content -->
+
+            <!-- Now-playing bar -->
+            <div id="now_playing" class="d-flex fixed-bottom bg-dark-grey">
+                
+            </div>
+            <!-- /Now-playing bar -->
+        </div>
     </body>
 </html>

@@ -1,7 +1,7 @@
 /* Global rules */
 
 * {
-    font-size: 11px;
+    font-size: 12px;
 }
 .bg-black {
     background-color: black;
@@ -33,24 +33,25 @@
 ul {
     list-style-type: none;
 }
+a {
+    color: #717171;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
 
 /* Sidebar rules */ 
 
 #sidebar {
     height: 90vh;
+    width: 200px;
 }
 #sidebar .sidebar_options img {
     width: 30px;
 }
 #sidebar .sidebar_options li:first-child {
     border-left: 3px solid white;
-}
-#sidebar a {
-    color: #717171;
-}
-#sidebar a:hover {
-    color: white;
-    text-decoration: none;
 }
 #sidebar .square {
     width: 35px;
@@ -76,8 +77,15 @@ ul {
 /* Upgrade button rules */
 
 #upgrade_bar {
-    height: 10vh;
+    height: 67px;
     z-index: -1;
+}
+
+/* Main content rules */
+
+main {
+    position: relative;
+    padding-top: 67px;
 }
 
 /* Now playing bar */
