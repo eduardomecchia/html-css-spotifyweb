@@ -97,6 +97,7 @@ a:hover {
 main {
     height: 100vh;
     padding-top: 67px;
+    padding-bottom: 90px;
     overflow-x: hidden;
     overflow-y: scroll;
 }
