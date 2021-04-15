@@ -4,13 +4,16 @@
     background-color: black;
 }
 .bg-fading-black {
-    background-color: #00000066;
+    background-color: #00000040;
 }
 .bg-dark-blue {
     background-color: #151922;
 }
 .text-grey {
     color: #717171;
+}
+.border-lime {
+    border-color: #adf62f!important;
 }
 
 
@@ -21,7 +24,10 @@
     width: 15vw;
 }
 #sidebar .sidebar_options img {
-    width: 15%;
+    width: 30px;
+}
+#sidebar .sidebar_options li:first-child {
+    border-left: 3px solid white;
 }
 #sidebar a {
     color: #717171;
@@ -31,9 +37,11 @@
     text-decoration: none;
 }
 
+
 /* Upgrade button rules */
 
 #upgrade_bar {
     height: 15vh;
-    z-index: -1;
+    position: fixed;
+    top: 0;
 }
