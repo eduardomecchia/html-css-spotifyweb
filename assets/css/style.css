@@ -20,7 +20,7 @@ h2 {
     background-color: black;
 }
 .bg-fading-black {
-    background-color: #00000040;
+    background-color: #00000069;
 }
 .bg-dark-blue {
     background-color: #151922;
@@ -88,19 +88,21 @@ a:hover {
     width: 13px;
 }
 
-/* Upgrade button rules */
+/* Upgrade bar rules */
 
 #upgrade_bar {
     height: 90px;
     z-index: 1;
+}
+#upgrade_bar a:hover {
+    font-size: 110%;
 }
 
 /* Main content rules */
 
 main {
     height: 100vh;
-    padding-top: 67px;
-    padding-bottom: 90px;
+    padding: 90px 0;
     overflow-x: hidden;
     overflow-y: scroll;
 }
@@ -126,9 +128,6 @@ main {
     position: absolute;
     top: 0;
     display: none;
-    width: 100%;
-    height: 100%;
-    background-color: #00000069;
 }
 .playlist_overlay i {
     font-size: 75px;
