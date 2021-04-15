@@ -18,6 +18,9 @@
 .text-black {
     color: #000;
 }
+.border-grey {
+    border-color: #717171!important;
+}
 .border-lime {
     border-color: #adf62f!important;
 }
@@ -49,6 +52,13 @@ ul {
     font-size: 30px;
     width: 40px;
     height: 40px;
+}
+#sidebar .user div:first-child {
+    width: 30px;
+    height: 30px;
+}
+#sidebar .user div:first-child img {
+    width: 20px;
 }
 
 /* Upgrade button rules */
