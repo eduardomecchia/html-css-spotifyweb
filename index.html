@@ -12,8 +12,8 @@
     <body class="bg-dark-blue">
         <div class="container-fluid d-flex px-0">
             <!-- Left sidebar --> 
-            <nav id="sidebar" class="flex-column font-weight-bold fixed-left px-0 text-grey bg-black">
-                <a href="https://www.spotify.com/it/home/" class="d-block py-3 pl-3">
+            <nav id="sidebar" class="flex-column fixed-left px-0 text-grey bg-black">
+                <a href="/" class="d-block py-3 pl-3">
                     <img src="./assets/img/logo.svg" class="w-50" alt="Spotify logo">
                 </a>
 
@@ -39,7 +39,7 @@
                 <!-- Playlist options -->
                 <ul class="playlist_options pl-3 pr-0">
                     <li>
-                        <div class="font-weight-bold text-uppercase text-white">Playlist</div>
+                        <div class="text-uppercase text-white">Playlist</div>
                     </li>
 
                     <li class="my-3">
@@ -103,11 +103,11 @@
             <main class="d-flex flex-column w-100 px-0 text-grey">
                 <!-- Fixed upgrade bar -->
                 <div id="upgrade_bar" class="d-flex justify-content-end align-items-center fixed-top bg-fading-black">
-                    <a href="#" class="btn rounded-pill border border-white mr-3 py-2 px-4 font-weight-bold text-white text-uppercase">Effettua l'upgrade</a>
+                    <a href="#" class="btn rounded-pill border border-white mr-3 py-2 px-4 text-white text-uppercase">Effettua l'upgrade</a>
                 </div>
                 <!-- /Fixed upgrade bar -->
             
-                <ul id="song_choice" class="d-flex justify-content-center flex-wrap py-4 font-weight-bold text-uppercase">
+                <ul id="song_choice" class="d-flex justify-content-center flex-wrap py-4 text-uppercase">
                     <li>
                         <a href="#" class="mr-4">In evidenza</a>
                     </li>
@@ -128,8 +128,57 @@
                     </li>
                 </ul>
 
-                <div id="recent" class="d-flex">
-                    <h1 class="text-white font-weight-bold">Recently played</h1>
+                <div id="recent" class="d-flex flex-column px-4">
+                    <h1 class="text-white">Recently played</h1>
+                    <div class="playlist_row d-flex my-4">
+                        <div class="playlist d-flex flex-column mr-4">
+                            <div class="img-wrapper">    
+                                <img  src="./assets/img/metal_lifting.jpg" alt="">
+                            </div>
+                            <h2 class="mt-4 text-white text-center">Heavy Metal</h2>
+                            <span class="author text-center">Subtitle</span>
+                        </div>
+
+                        <div class="playlist d-flex flex-column mr-4">
+                            <div class="img-wrapper">    
+                                <img  src="./assets/img/stranger.jpeg" alt="">
+                            </div>
+                            <h2 class="mt-4 text-white text-center">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h2>
+                            <span class="author text-center">Kyle Dixon & Michael Stein</span>
+                        </div>
+
+                        <div class="playlist d-flex flex-column mr-4">
+                            <div class="img-wrapper">    
+                                <img  src="./assets/img/aquietplace.jpeg" alt="">
+                            </div>
+                            <h2 class="mt-4 text-white text-center">A quiet place</h2>
+                            <span class="author text-center">Subtitle</span>
+                        </div>
+
+                        <div class="playlist d-flex flex-column mr-4">
+                            <div class="img-wrapper">    
+                                <img  src="./assets/img/split.jpeg" alt="">
+                            </div>
+                            <h2 class="mt-4 text-white text-center">Split</h2>
+                            <span class="author text-center">Subtitle</span>
+                        </div>
+
+                        <div class="playlist d-flex flex-column mr-4">
+                            <div class="img-wrapper">    
+                                <img  src="./assets/img/cure.jpeg" alt="">
+                            </div>
+                            <h2 class="mt-4 text-white text-center">A cure for wellness</h2>
+                            <span class="author text-center">Subtitle</span>
+                        </div>
+
+                        <div class="playlist d-flex flex-column mr-4">
+                            <div class="img-wrapper">    
+                                <img  src="./assets/img/sinister.jpeg" alt="">
+                            </div>
+                            <h2 class="mt-4 text-white text-center">Sinister</h2>
+                            <span class="author text-center">Subtitle</span>
+                        </div>
+                    </div>
                 </div>
             </main>
             <!-- /App content -->
