@@ -1,5 +1,8 @@
 /* Global rules */
 
+* {
+    font-size: 11px;
+}
 .bg-black {
     background-color: black;
 }
@@ -31,12 +34,10 @@ ul {
     list-style-type: none;
 }
 
-
 /* Sidebar rules */ 
 
 #sidebar {
     height: 90vh;
-    width: 15vw;
 }
 #sidebar .sidebar_options img {
     width: 30px;
@@ -52,16 +53,24 @@ ul {
     text-decoration: none;
 }
 #sidebar .square {
-    font-size: 25px;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
+}
+#sidebar .square i {
+    font-size: 20px;
+}
+#sidebar .create_playlist:hover .square {
+    background-color: white;
+}
+#sidebar #profile a img {
+    width: 12px;
 }
 #sidebar .user div:first-child {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 #sidebar .user div:first-child img {
-    width: 20px;
+    width: 13px;
 }
 
 /* Upgrade button rules */
@@ -74,5 +83,5 @@ ul {
 /* Now playing bar */
 
 #now_playing {
-    height: 10vh;
+    height: 90px;
 }
