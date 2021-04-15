@@ -9,10 +9,36 @@
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body class="bg-dark-blue">
-        <nav id="sidebar" class="fixed-left bg-black"></nav>
+        <nav id="sidebar" class="d-flex flex-column fixed-left px-4 text-grey bg-black">
+            <a href="https://www.spotify.com/it/home/" class="w-75 mb-4 py-3">
+                <img src="./assets/img/logo.svg" class="img-fluid" alt="Spotify logo">
+            </a>
 
-        <div id="upgrade_bar" class="d-flex justify-content-end align-items-center fixed-top mr-3 bg-fading-black">
-            <a href="#" class="btn rounded-pill border border-white py-2 px-4 text-white text-uppercase">Effettua l'upgrade</a>
+            <ul class="sidebar_options px-0">
+                <li class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/home.svg" class="img-fluid" alt="Icon depicting a house">
+                    <a href="#" class="ml-2">Home</a>
+                </li>
+
+                <li class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/search.svg" class="img-fluid" alt="Icon depicting a magnifying glass">
+                    <a href="#" class="ml-2">Cerca</a>
+                </li>
+
+                <li class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/libreria.svg" class="img-fluid" alt="Icon depicting three vertical books">
+                    <a href="#" class="ml-2">La tua libreria</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="upgrade_bar" class="d-flex justify-content-end align-items-center fixed-top bg-fading-black">
+            <a href="#" class="btn rounded-pill border border-white mr-3 py-2 px-4 font-weight-bold text-white text-uppercase">Effettua l'upgrade</a>
         </div>
+
+        <main>
+            
+
+        </main>
     </body>
 </html>
