@@ -55,7 +55,8 @@ a:hover {
 
 #sidebar {
     height: calc(100vh - 90px);
-    width: 200px;
+    width: 250px;
+    z-index: 2;
 }
 #sidebar .sidebar_options img {
     width: 30px;
@@ -74,7 +75,7 @@ a:hover {
     background-color: white;
 }
 #sidebar #profile a img {
-    width: 12px;
+    width: 18px;
 }
 #sidebar .user div:first-child {
     width: 20px;
@@ -88,7 +89,7 @@ a:hover {
 
 #upgrade_bar {
     height: 67px;
-    z-index: -1;
+    z-index: 1;
 }
 
 /* Main content rules */
@@ -113,6 +114,12 @@ main {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.overlay {
+}
+.playlist_row img:hover {
+
 }
 
 /* Now playing bar */
