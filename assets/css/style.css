@@ -40,9 +40,6 @@ h2 {
 .border-grey {
     border-color: #717171!important;
 }
-.border-lime {
-    border-color: #adf62f!important;
-}
 ul {
     list-style-type: none;
 }
@@ -57,14 +54,14 @@ a:hover {
 /* Sidebar rules */ 
 
 #sidebar {
-    height: 90vh;
+    height: calc(100vh - 90px);
     width: 200px;
 }
 #sidebar .sidebar_options img {
     width: 30px;
 }
 #sidebar .sidebar_options li:first-child {
-    border-left: 3px solid white;
+    border-left: 3px solid #adf62f;
 }
 #sidebar .square {
     width: 35px;
@@ -102,6 +99,20 @@ main {
     padding-top: 67px;
     overflow-x: hidden;
     overflow-y: scroll;
+}
+
+#filters li:first-child a {
+    position: relative;
+}
+#filters li:first-child a::after {
+    content:'';
+    display: block;
+    background-color: #adf62f;
+    height: 2px;
+    width: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* Now playing bar */
