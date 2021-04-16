@@ -175,7 +175,7 @@ main {
 #progress_bar {
     background-color: #565656;
     height: 4px;
-    width: 200%;
+    width: 100%;
 }
 #volume_bar {
     background-color: #565656;
