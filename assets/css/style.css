@@ -145,3 +145,9 @@ main {
 #now_playing {
     height: 90px;
 }
+#now_playing img {
+    width: 50px;
+}
+#now_playing i {
+    font-size: 1.2rem;
+}
