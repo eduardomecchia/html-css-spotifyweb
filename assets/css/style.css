@@ -166,22 +166,49 @@ main {
     font-size: 1.2rem;
     cursor: pointer;
 }
+
 #media_icons i:nth-child(3) {
     font-size: 27px;
 }
 #media_icons .fa-play-circle:hover {
     font-size: 30px;
 }
+
 #progress_bar {
     background-color: #565656;
     height: 4px;
     width: 100%;
 }
+#progress_bar:hover .slider {
+    background-color: #adf62f;
+}
+#progress_bar:hover .slider_handle {
+    display: block;
+}
+
 #volume_bar {
     background-color: #565656;
     height: 4px;
     width: 100px; 
 }
+#volume_bar:hover .slider {
+    background-color: #adf62f;
+}
+#volume_bar:hover .slider_handle {
+    display: block;
+}   
+
 .slider {
     background-color: #bdbdbd;
+    position: relative;
+}
+.slider_handle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    display: none;
+    background-color: white;
+    height: 12px;
+    width: 12px;
 }
