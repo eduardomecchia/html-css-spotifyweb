@@ -61,10 +61,10 @@ a:hover {
 #sidebar #logo {
     height: 90px;
 }
-#sidebar .sidebar_options img {
+#sidebar #sidebar_options img {
     width: 30px;
 }
-#sidebar .sidebar_options li:first-child {
+#sidebar #sidebar_options li:first-child {
     border-left: 3px solid #adf62f;
 }
 #sidebar .square {
