@@ -155,11 +155,16 @@ main {
 #media_icons i:nth-child(3) {
     font-size: 27px;
 }
+#progress_bar {
+    background-color: #565656;
+    height: 4px;
+    width: 200%;
+}
 #volume_bar {
     background-color: #565656;
-    height: 3px;
-    width: 50%; 
+    height: 4px;
+    width: 100px; 
 }
-#volume_slider {
+.slider {
     background-color: #bdbdbd;
 }
