@@ -67,6 +67,13 @@ a:hover {
 #sidebar #sidebar_options li:first-child {
     border-left: 3px solid #adf62f;
 }
+#sidebar #sidebar_options a:hover * {
+    color: white;
+    filter: brightness(1)!important;
+}
+#sidebar #sidebar_options img:not(#home) {
+    filter: brightness(0.5);
+}
 
 #sidebar .square {
     width: 35px;
