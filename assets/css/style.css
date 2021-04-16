@@ -150,4 +150,16 @@ main {
 }
 #now_playing i {
     font-size: 1.2rem;
+    cursor: pointer;
+}
+#media_icons i:nth-child(3) {
+    font-size: 27px;
+}
+#volume_bar {
+    background-color: #565656;
+    height: 3px;
+    width: 50%; 
+}
+#volume_slider {
+    background-color: #bdbdbd;
 }
