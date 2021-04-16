@@ -15,12 +15,20 @@
             <!-- Left sidebar --> 
             <nav id="sidebar" class="d-flex justify-content-between flex-column fixed-left flex-shrink-0 px-0 text-grey bg-black">
                 <div class="wrapper">
-                    <a href="/" id="logo" class="d-flex align-items-center py-3 pl-3">
+                    <!-- Logo -->
+                    <a href="/" id="logo" class="d-flex align-items-center py-3 pl-3 disappear">
                         <img src="./assets/img/logo.svg" class="w-75" alt="Spotify logo">
                     </a>
+                    <!-- /Logo -->
+
+                    <!-- Logo for XS devices -->
+                    <a class="d-none appear mb-4" href="/">
+                        <img src="./assets/img/logo-small.svg" alt="Small Spotify logo">
+                    </a>
+                    <!-- /Logo for XS devices -->
     
                     <!-- Sidebar options -->
-                    <ul id="sidebar_options" class="px-0">
+                    <ul id="sidebar_options" class="px-0 disappear">
                         <li class="pl-3 mb-2">
                             <a class="d-flex align-items-center" href="#">
                                 <img id="home" src="./assets/img/home.svg" alt="Icon depicting a house">
@@ -43,9 +51,25 @@
                         </li>
                     </ul>
                     <!-- /Sidebar options -->
-    
+
+                    <!-- Sidebar options for XS devices -->
+                    <div class="d-none appear">
+                        <a href="#" class="d-block mb-3">
+                            <img src="./assets/img/home.svg" alt="Icon depicting a house">
+                        </a>
+
+                        <a href="#" class="d-block mb-3">
+                            <img src="./assets/img/search.svg" alt="Icon depicting a magnifying glass">
+                        </a>
+
+                        <a href="#" class="d-block mb-3">
+                            <img src="./assets/img/libreria.svg" class="img-fluid" alt="Icon depicting three vertical books">
+                        </a>
+                    </div>
+                    <!-- /Sidebar options for XS devices -->
+                    
                     <!-- Playlist options -->
-                    <ul id="playlist_options" class="pl-3 pr-0">
+                    <ul id="playlist_options" class="pl-3 pr-0 disappear">
                         <li>
                             <div class="text-uppercase text-white">Playlist</div>
                         </li>
@@ -95,9 +119,9 @@
                 </div>
                 
                 <!-- Profile options -->
-                <div id="profile" class="d-flex flex-column">
+                <div id="profile" class="d-flex flex-column disappear">
                     <a href="#" class="d-flex align-items-center mx-3 pb-2 border-bottom border-grey">
-                        <img src="./assets/img/download.svg" alt="Icon depicting an arrow pointing down">
+                        <img src="./assets/img/download.svg" alt="Icon depicting an arrow pointing down inside a circle">
                         <div class="ml-3">Installa app</div>
                     </a>
 
@@ -109,6 +133,18 @@
                     </div>
                 </div>
                 <!-- /Profile options -->
+
+                <!-- Profile options for XS devices -->
+                <div id="profile-xs" class="d-none appear-flex flex-column align-items-center">
+                    <a href="#" class="mb-3">
+                        <img src="./assets/img/download.svg" alt="Icon depicting an arrow pointing down inside a circle">
+                    </a>
+            
+                    <a href="#" class="d-flex justify-content-center align-items-center bg-grey rounded-circle">
+                        <img src="./assets/img/profile.svg" alt="Icon depicting a silhouette">
+                    </a>
+                </div>
+                <!-- /Profile options for XS devices -->
             </nav>
             <!-- /Left sidebar --> 
 

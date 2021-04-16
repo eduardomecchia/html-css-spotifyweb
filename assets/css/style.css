@@ -113,6 +113,19 @@ a:hover {
     width: 13px;
 }
 
+/* Sidebar XS rules */
+
+#profile-xs a:last-child {
+    width: 20px;
+    height: 20px;
+}
+#profile-xs a:last-child img {
+    width: 65%;
+}
+#profile-xs a:first-child img {
+    width: 18px;
+}
+
 /* Upgrade bar rules */
 
 #upgrade_bar {
@@ -226,9 +239,22 @@ main {
 
 /* Media queries */ 
 
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 576px) {
+    #sidebar {
+        width: 60px;
+        padding: 10px!important;
+    }
+    .disappear {
+        display: none!important;
+    }
+    .appear {
+        display: block!important;
+    }
+    .appear-flex {
+        display: flex!important;
+    }
 }
+
 /* * {
     background: #000 !important;
     color: #0f0 !important;
