@@ -212,3 +212,11 @@ main {
     height: 12px;
     width: 12px;
 }
+
+/* Media queries */ 
+
+@media screen and (max-width: 768px) {
+    #recent .playlist_row {
+        flex-wrap: wrap;
+    }
+}
