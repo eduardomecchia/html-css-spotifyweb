@@ -169,6 +169,9 @@ main {
 #media_icons i:nth-child(3) {
     font-size: 27px;
 }
+#media_icons .fa-play-circle:hover {
+    font-size: 30px;
+}
 #progress_bar {
     background-color: #565656;
     height: 4px;
