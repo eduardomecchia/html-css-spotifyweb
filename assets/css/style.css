@@ -67,6 +67,7 @@ a:hover {
 #sidebar #sidebar_options li:first-child {
     border-left: 3px solid #adf62f;
 }
+
 #sidebar .square {
     width: 35px;
     height: 35px;
@@ -77,6 +78,12 @@ a:hover {
 #sidebar .create_playlist:hover .square {
     background-color: white;
 }
+
+#sidebar #playlist_entries {
+    height: calc(40vh - 90px);
+    overflow-y: auto;
+}
+
 #sidebar #profile a img {
     width: 18px;
 }
