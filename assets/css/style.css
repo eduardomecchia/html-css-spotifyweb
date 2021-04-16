@@ -55,7 +55,7 @@ a:hover {
 
 #sidebar {
     height: calc(100vh - 90px);
-    width: 250px;
+    width: 230px;
     z-index: 2;
 }
 #sidebar > a:first-child {
