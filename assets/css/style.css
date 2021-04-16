@@ -4,9 +4,6 @@
     font-size: 0.9rem;
     font-weight: bold;
 }
-body {
-    overflow-y: hidden;
-}
 h1 {
     font-size: 2.5rem;
     font-weight: bold;
@@ -40,6 +37,7 @@ h2 {
 .border-grey {
     border-color: #717171!important;
 }
+
 ul {
     list-style-type: none;
 }
