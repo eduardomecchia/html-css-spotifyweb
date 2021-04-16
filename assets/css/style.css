@@ -58,7 +58,7 @@ a:hover {
     width: 230px;
     z-index: 2;
 }
-#sidebar > a:first-child {
+#sidebar #logo {
     height: 90px;
 }
 #sidebar .sidebar_options img {
