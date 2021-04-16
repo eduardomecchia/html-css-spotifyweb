@@ -101,8 +101,8 @@ a:hover {
 /* Main content rules */
 
 main {
-    height: 100vh;
-    padding: 90px 0;
+    height: calc(100vh - 90px);
+    padding-top: 90px;
     overflow-x: hidden;
     overflow-y: scroll;
 }
