@@ -5,11 +5,11 @@
     font-weight: bold;
 }
 h1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 body > div {
@@ -243,7 +243,7 @@ main {
 
 @media screen and (max-width: 576px) {
     #sidebar {
-        width: 60px;
+        width: 40px;
         padding: 10px!important;
     }
     .disappear {
