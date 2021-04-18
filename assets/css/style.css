@@ -206,11 +206,12 @@ main {
     min-width: 25px;
 }
 
+
 #media_icons i:nth-child(3) {
     font-size: 27px;
 }
 #media_icons i:nth-child(3):hover {
-    font-size: 30px;
+    transform: scale(1.2);
 }
 
 #progress_bar {
