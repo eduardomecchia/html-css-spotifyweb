@@ -193,6 +193,10 @@ main {
     cursor: pointer;
 }
 
+#song_info img {
+    min-width: 25px;
+}
+
 #media_icons i:nth-child(3) {
     font-size: 27px;
 }
