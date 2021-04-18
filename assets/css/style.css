@@ -144,7 +144,7 @@ a:hover {
     padding: 12px 0;
 }
 #upgrade_bar a:hover {
-    font-size: 120%;
+    transform: scale(1.1);
 }
 
 /* Main content rules */
@@ -205,7 +205,6 @@ main {
 #song_info img {
     min-width: 25px;
 }
-
 
 #media_icons i:nth-child(3) {
     font-size: 27px;
