@@ -1,7 +1,13 @@
 /* Global rules */
 
+@font-face{
+    font-family: 'GothamBook';
+    src: url("../fonts/GothamBook.ttf") format("truetype");
+}
+
 * {
     font-size: 0.9rem;
+    font-family: 'GothamBook';
     font-weight: bold;
 }
 h1 {
@@ -200,7 +206,7 @@ main {
 #media_icons i:nth-child(3) {
     font-size: 27px;
 }
-#media_icons .fa-play-circle:hover {
+#media_icons i:nth-child(3):hover {
     font-size: 30px;
 }
 
