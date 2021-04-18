@@ -201,6 +201,9 @@ main {
     font-size: 1.1rem;
     cursor: pointer;
 }
+#now_playing > * {
+    flex: auto;
+}
 
 #song_info img {
     min-width: 25px;
@@ -260,7 +263,7 @@ main {
 @media screen and (max-width: 576px) {
     #sidebar {
         width: 40px;
-        padding: 10px!important;
+        padding: 5px 8px!important;
     }
     .disappear {
         display: none!important;
