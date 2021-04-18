@@ -140,6 +140,9 @@ a:hover {
     height: 90px;
     z-index: 1;
 }
+#upgrade_bar a {
+    padding: 12px 0;
+}
 #upgrade_bar a:hover {
     font-size: 120%;
 }
