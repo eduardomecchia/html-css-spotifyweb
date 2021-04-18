@@ -113,12 +113,15 @@ a:hover {
 #sidebar #profile a img {
     width: 18px;
 }
-#sidebar .user div:first-child {
+#sidebar #user div:first-child {
     width: 20px;
     height: 20px;
 }
-#sidebar .user div:first-child img {
+#sidebar #user div:first-child img {
     width: 13px;
+}
+#sidebar #user div:last-child {
+    font-size: 1rem;
 }
 
 /* Sidebar XS rules */
