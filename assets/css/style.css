@@ -212,6 +212,9 @@ main {
 #media_icons i:nth-child(3):hover {
     transform: scale(1.2);
 }
+#media_icons i:nth-child(5) {
+    transform: scaleX(-1);
+}
 
 #progress_bar {
     background-color: #565656;
