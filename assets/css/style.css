@@ -204,9 +204,6 @@ main {
     font-size: 1.1rem;
     cursor: pointer;
 }
-#now_playing > * {
-    flex: auto;
-}
 
 #song_info img {
     min-width: 25px;
