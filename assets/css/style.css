@@ -167,7 +167,7 @@ main {
     width: 40px;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, 3px);
 }
 
 .playlist > a {
