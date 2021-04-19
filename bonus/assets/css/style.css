@@ -294,3 +294,12 @@ main {
         width: 20vw;
     }
 }
+
+@media screen and (max-height: 500px) {
+    #upgrade_bar {
+        display: none!important;
+    }
+    main {
+        padding-top: 0px;
+    }
+}
