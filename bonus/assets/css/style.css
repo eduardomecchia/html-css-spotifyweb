@@ -163,9 +163,6 @@ main {
     overflow-y: auto;
 }
 
-#filters li:first-child a {
-    position: relative;
-}
 #filters li:first-child a::after {
     content:'';
     display: block;
@@ -177,23 +174,17 @@ main {
     transform: translate(-50%, 3px);
 }
 
-.playlist > a {
-    position: relative;
-}
 .playlist_overlay {
-    position: absolute;
     top: 0;
-    display: none;
 }
 .playlist_overlay i {
     font-size: 5rem;
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 .playlist a:first-child:hover .playlist_overlay {
-    display: block;
+    display: block!important;
 }
 
 /* Now playing bar */
@@ -230,7 +221,7 @@ main {
     background-color: #adf62f;
 }
 #progress_bar:hover .slider_handle {
-    display: block;
+    display: block!important;
 }
 
 #volume_bar {
@@ -242,19 +233,16 @@ main {
     background-color: #adf62f;
 }
 #volume_bar:hover .slider_handle {
-    display: block;
+    display: block!important;
 }   
 
 .slider {
     background-color: #bdbdbd;
-    position: relative;
 }
 .slider_handle {
-    position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     right: 0;
-    display: none;
+    transform: translateY(-50%);
     background-color: white;
     height: 12px;
     width: 12px;
