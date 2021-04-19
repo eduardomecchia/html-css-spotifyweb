@@ -288,4 +288,7 @@ main {
     #song_info {
         margin-right: 5px!important;
     }
+    #progress_bar {
+        width: 20vw;
+    }
 }
