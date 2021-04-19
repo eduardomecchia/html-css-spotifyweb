@@ -145,6 +145,7 @@ a:hover {
 }
 #upgrade_bar a {
     padding: 12px 0;
+    white-space: nowrap;
 }
 #upgrade_bar a:hover {
     transform: scale(1.1);
