@@ -176,6 +176,8 @@ main {
 
 .playlist_overlay {
     top: 0;
+    opacity: 0;
+    transition: 0.3s;
 }
 .playlist_overlay i {
     font-size: 5rem;
@@ -184,7 +186,7 @@ main {
     transform: translate(-50%,-50%);
 }
 .playlist a:first-child:hover .playlist_overlay {
-    display: block!important;
+    opacity: 1;
 }
 
 /* Now playing bar */
