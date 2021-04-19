@@ -281,6 +281,9 @@ main {
     #now_playing {
         justify-content: space-around!important;
     }
+    #now_playing > div:nth-child(2) {
+        width: auto!important;
+    }
     #song_info {
         margin-right: 5px!important;
     }
