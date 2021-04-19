@@ -277,6 +277,12 @@ main {
     .playlist_overlay i {
         font-size: 3.5rem;
     }
+    #now_playing {
+        justify-content: space-around!important;
+    }
+    #song_info {
+        margin-right: 5px!important;
+    }
 }
 /* * {
     background: #000 !important;
