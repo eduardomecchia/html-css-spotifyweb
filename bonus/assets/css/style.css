@@ -213,6 +213,7 @@ main {
 }
 #media_icons i:nth-child(3) {
     font-size: 27px;
+    transition: all 0.5s;
 }
 #media_icons i:nth-child(3):hover {
     transform: scale(1.2);
