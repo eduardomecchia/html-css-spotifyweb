@@ -150,6 +150,7 @@ a:hover {
 #upgrade_bar a {
     padding: 12px 0;
     white-space: nowrap;
+    transition: all 0.5s;
 }
 #upgrade_bar a:hover {
     transform: scale(1.1);
