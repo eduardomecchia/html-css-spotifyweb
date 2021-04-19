@@ -19,6 +19,7 @@ h2 {
     font-weight: bold;
 }
 body {
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 body > div {
@@ -201,18 +202,15 @@ main {
 #now_playing {
     height: 90px;
 }
-#now_playing img {
-    width: 50px;
-}
 #now_playing i {
     font-size: 1.1rem;
     cursor: pointer;
 }
 
 #song_info img {
+    width: 50px;
     min-width: 25px;
 }
-
 #media_icons i:nth-child(3) {
     font-size: 27px;
 }
@@ -291,8 +289,3 @@ main {
         margin-right: 5px!important;
     }
 }
-/* * {
-    background: #000 !important;
-    color: #0f0 !important;
-    outline: solid #f00 1px !important;
-  } */
