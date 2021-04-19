@@ -57,6 +57,7 @@ ul {
 }
 a {
     color: #717171;
+    transition: 0.5s;
 }
 a:hover {
     color: white;
@@ -89,13 +90,17 @@ a:hover {
     position: absolute;
     left: 0;
 }
-
+#sidebar #sidebar_options a,
+#sidebar #sidebar_options span {
+    transition: 0.5s;
+}
 #sidebar #sidebar_options a:hover * {
     color: white;
     filter: brightness(1)!important;
 }
 #sidebar #sidebar_options img:not(#home) {
     filter: brightness(0.5);
+    transition: 0.5s;
 }
 
 #sidebar .square {
