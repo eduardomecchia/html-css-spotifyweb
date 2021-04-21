@@ -24,3 +24,7 @@ document.getElementById('profile_name').innerHTML = 'Eduardo Mecchia';
 // Assign name to playlist row
 
 document.getElementById('created_for').innerHTML = 'Creato per Eduardo Mecchia';
+
+// Assign name to the song that's currently playing
+
+document.getElementById('current_song').innerHTML = 'My Sick Piano'
