@@ -1,0 +1,6 @@
+document.getElementById('heavymetal').innerHTML = 'Various Artists'
+document.getElementById('strangerthings').innerHTML = 'Kyle Dixon & Michael Stain'
+document.getElementById('aquietplace').innerHTML = 'Marco Beltrami'
+document.getElementById('split').innerHTML = 'West Thordson'
+document.getElementById('acureforwellness').innerHTML = 'Benjamin Wallfisch'
+document.getElementById('sinister').innerHTML = 'Cristopher Young'
